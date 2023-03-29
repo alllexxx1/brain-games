@@ -19,4 +19,3 @@ def initialize_game():
         case '*':
             result = first_operand * second_operand
     return (expression, str(result))
-

@@ -1,5 +1,4 @@
 import prompt
-from random import randint
 
 
 def play(game):
@@ -13,11 +12,12 @@ def play(game):
         print(f'Question: {question}')
         user_answer = prompt.string('You answer: ')
         if user_answer != correct_answer:
-            print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-Let's try again, {name}!''')
+            print(f'"{user_answer}" is wrong answer ;(.'
+                  f'Correct answer was "{correct_answer}".\n'
+                  f"Let's try again, {name}!")
             break
         else:
             print('Correct!')
             right_answers -= 1
     else:
-         print(f'Congratulations, {name}!')
+        print(f'Congratulations, {name}!')
