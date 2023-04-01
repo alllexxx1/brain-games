@@ -1,18 +1,17 @@
 from random import randint
+from math import gcd
 
 
-rules = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given number.'
+MIN_FIRST_NUM = 0
+MAX_FIRST_NUM = 50
+MIN_SECOND_NUM = 0
+MAX_SECOND_NUM = 50
 
 
-def initialize_game():
-    first_number = randint(0, 50)
-    second_number = randint(0, 50)
+def create_game_data():
+    first_number = randint(MIN_FIRST_NUM, MAX_FIRST_NUM)
+    second_number = randint(MIN_SECOND_NUM, MAX_SECOND_NUM)
+    result = gcd(first_number, second_number)
     question = f'{first_number} {second_number}'
-    result = 0
-    while first_number != 0 and second_number != 0:
-        if first_number > second_number:
-            first_number = first_number - second_number
-        else:
-            second_number = second_number - first_number
-    result += (first_number + second_number)
     return (question, str(result))

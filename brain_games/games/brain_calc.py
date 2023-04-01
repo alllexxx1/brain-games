@@ -1,14 +1,18 @@
 from random import randint, choice
 
 
-rules = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
+MIN_FIRST_OPERAND = 10
+MAX_FIRST_OPERAND = 20
+MIN_SECOND_OPERAND = 0
+MAX_SECOND_OPERAND = 10
+OPERATOR = ('+', '-', '*')
 
 
-def initialize_game():
-    first_operand = randint(10, 20)
-    second_operand = randint(0, 10)
-    operator = ('+', '-', '*')
-    operator = choice(operator)
+def create_game_data():
+    first_operand = randint(MIN_FIRST_OPERAND, MAX_FIRST_OPERAND)
+    second_operand = randint(MIN_SECOND_OPERAND, MAX_SECOND_OPERAND)
+    operator = choice(OPERATOR)
     expression = f'{first_operand} {operator} {second_operand}'
     result = 0
     match operator:
