@@ -14,31 +14,35 @@
 
 There is a number. You must answer 'yes' if number is even and 'no' is number is 'odd'
 
+<a href="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM" target="_blank"><img src="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM.svg" /></a>
+
+
 ### 📌 Brain-calc
 
 There is a mathematical expression. You must write correct solution
+
+<a href="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ" target="_blank"><img src="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ.svg" /></a>
+
 
 ### 📌 Brain-gcd
 
 There are two numbers. You must come up with greatest common divisor
 
+<a href="https://asciinema.org/a/569444" target="_blank"><img src="https://asciinema.org/a/569444.svg" /></a>
+
+
 ### 📌 Brain-progression
 
 There is progression with a missing number. You must fill in the missing number
+
+<a href="https://asciinema.org/a/570306" target="_blank"><img src="https://asciinema.org/a/570306.svg" /></a>
+
 
 ### 📌 Brain-prime
 
 There is a number. You must find out if this number is prime
 
-## 🎮 Gameplay demo:
-
-|                                                          Brain-even                                                            |                                                               Brain-calc                                                               |                                                                      Brain-gcd                                                         |
-| :----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM" target="_blank"><img src="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM.svg" width="300" height="300" /></a> | <a href="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ" target="_blank"><img src="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ.svg" width="300" height="300" /></a> | <a href="https://asciinema.org/a/569444" target="_blank"><img src="https://asciinema.org/a/569444.svg" width="300" height="300" /></a> |
-
-|                                                         Brain-progression                                                       |                                                                    Brain-prime                                                          |
-| :-----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://asciinema.org/a/570306" target="_blank"><img src="https://asciinema.org/a/570306.svg" width="300" height="300" /></a> | <a href="https://asciinema.org/a/570333" target="_blank"><img src="https://asciinema.org/a/570333.svg" width="300" height="300" /></a> |
+<a href="https://asciinema.org/a/570333" target="_blank"><img src="https://asciinema.org/a/570333.svg" /></a>
 
 ---
 
