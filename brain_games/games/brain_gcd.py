@@ -2,7 +2,7 @@ from random import randint
 from math import gcd
 
 
-RULE = 'Find the greatest common divisor of given number.'
+RULE = 'Find the greatest common divisor of given numbers.'
 MIN_FIRST_NUM = 0
 MAX_FIRST_NUM = 50
 MIN_SECOND_NUM = 0
