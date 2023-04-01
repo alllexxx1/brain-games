@@ -2,9 +2,12 @@
 
 ## Hexlet tests and linter status:
 
+---
+
 [![Actions Status](https://github.com/alllexxx1/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/alllexxx1/python-project-49/actions)
 <a href="https://codeclimate.com/github/alllexxx1/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/fa33867e39452019b806/maintainability" /></a>
 
+---
 
 ## 📎 Project description
 
@@ -16,13 +19,11 @@ There is a number. You must answer 'yes' if number is even and 'no' is number is
 
 <a href="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM" target="_blank"><img src="https://asciinema.org/a/wOLdMdBNilUmFj1zIsaGzMQzM.svg" /></a>
 
-
 ### 📌 Brain-calc
 
 There is a mathematical expression. You must write correct solution
 
 <a href="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ" target="_blank"><img src="https://asciinema.org/a/f0awVpP6LOkH9NFWAOW2OICYZ.svg" /></a>
-
 
 ### 📌 Brain-gcd
 
@@ -30,13 +31,11 @@ There are two numbers. You must come up with greatest common divisor
 
 <a href="https://asciinema.org/a/569444" target="_blank"><img src="https://asciinema.org/a/569444.svg" /></a>
 
-
 ### 📌 Brain-progression
 
 There is progression with a missing number. You must fill in the missing number
 
 <a href="https://asciinema.org/a/570306" target="_blank"><img src="https://asciinema.org/a/570306.svg" /></a>
-
 
 ### 📌 Brain-prime
 
