@@ -14,7 +14,7 @@ def play(game):
         print(f'Question: {question}')
         user_answer = string('You answer: ')
         if user_answer != correct_answer:
-            print(f'"{user_answer}" is wrong answer ;(.'
+            print(f'"{user_answer}" is wrong answer ;(. '
                   f'Correct answer was "{correct_answer}".\n'
                   f'Let\'s try again, {name}!')
             break
