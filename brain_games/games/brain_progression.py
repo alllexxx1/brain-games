@@ -16,6 +16,6 @@ def create_game_data():
                              randint(MIN_STEP, MAX_STEP)))
     hidden_index = randint(0, len(progression) - 1)
     right_answer = str(progression[hidden_index])
-    progression[hidden_index] = ".."
-    question = " ".join(map(str, progression))
+    progression[hidden_index] = '..'
+    question = ' '.join(map(str, progression))
     return question, right_answer

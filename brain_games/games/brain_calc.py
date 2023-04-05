@@ -6,13 +6,13 @@ MIN_FIRST_OPERAND = 10
 MAX_FIRST_OPERAND = 20
 MIN_SECOND_OPERAND = 0
 MAX_SECOND_OPERAND = 10
-OPERATOR = ('+', '-', '*')
+OPERATORS = ('+', '-', '*')
 
 
 def create_game_data():
     first_operand = randint(MIN_FIRST_OPERAND, MAX_FIRST_OPERAND)
     second_operand = randint(MIN_SECOND_OPERAND, MAX_SECOND_OPERAND)
-    operator = choice(OPERATOR)
+    operator = choice(OPERATORS)
     expression = f'{first_operand} {operator} {second_operand}'
     result = 0
     match operator:
