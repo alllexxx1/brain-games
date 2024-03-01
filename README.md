@@ -60,3 +60,11 @@ $ make build
 $ make package-install
 $ name-of-the-game
 ```
+
+### 🐳 Via Docker:
+
+```
+$ docker pull okerdocker11/brain-games
+$ docker run -it okerdocker11/brain-games bash
+$ poetry run name-of-the-game
+```
