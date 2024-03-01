@@ -13,7 +13,7 @@
 
 ### 📌 Brain-even
 
-There is a number. You must answer 'yes' if number is even and 'no' is number is 'odd'
+There is a number. You must answer 'yes' if number is even and 'no' is number is odd
 
 [![asciicast](https://asciinema.org/a/568570.svg)](https://asciinema.org/a/568570)
 
